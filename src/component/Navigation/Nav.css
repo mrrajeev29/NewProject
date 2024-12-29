@@ -4,12 +4,12 @@
   top: 10%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust position back by 50% of its own width and height */
-  width: fit-content;
+  width: auto;
   height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0;
+  gap: auto;
   background-color: rgb(255, 255, 255);
   padding: 0;
   margin: 0;
@@ -40,6 +40,21 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+  #navigation-card {
+    top: 8%; /* Center vertically */
+
+    flex-wrap: wrap;
+    gap: 25px; /* Add spacing between elements for smaller screens */
+  }
+
+  #tab-1, #tab-2, #tab-3 {
+    margin: 0 1rem; /* Reduce margin for smaller screens */
+    width: 40px; /* Adjust size of tabs */
+    height: 40px;
+    padding: 8px;
+  }
+}
 @media (max-width: 768px) {
   #navigation-card {
     top: 8%; /* Center vertically */
