@@ -42,7 +42,7 @@
 
 @media (max-width: 1200px) {
   #navigation-card {
-    top: 10%; /* Center vertically */
+    top: 5%; /* Center vertically */
 
     flex-wrap: wrap;
     gap: 25px; /* Add spacing between elements for smaller screens */
@@ -57,7 +57,7 @@
 }
 @media (max-width: 768px) {
   #navigation-card {
-    top: 8%; /* Center vertically */
+    top: 5%; /* Center vertically */
 
     flex-wrap: wrap;
     gap: 20px; /* Add spacing between elements for smaller screens */
@@ -74,7 +74,7 @@
 @media (max-width: 570px) {
   #navigation-card {
 
-    top: 10%;
+    top: 6%;
     flex-direction: ; /* Stack the tabs vertically on very small screens */
     gap: 15px; /* Increase spacing between elements */
   }
@@ -88,7 +88,7 @@
 @media (max-width: 370px) {
   #navigation-card {
 
-    top: 10%;
+    top: 4%;
     flex-direction: ; /* Stack the tabs vertically on very small screens */
     gap: 5px; /* Increase spacing between elements */
   }
