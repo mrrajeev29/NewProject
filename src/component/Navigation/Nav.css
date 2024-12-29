@@ -1,7 +1,7 @@
 /* Navigation card container */
 #navigation-card {
   position: fixed;
-  top: 10%; /* Center vertically */
+  top: 12%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Adjust position back by 50% of its own width and height */
   width: auto;
@@ -39,10 +39,10 @@
   background-color: rgb(227, 223, 223);
 }
 
-/* Responsive Design */
+
 @media (max-width: 1200px) {
   #navigation-card {
-    top: 3%; /* Center vertically */
+    top: 10%; /* Center vertically */
 
     flex-wrap: wrap;
     gap: 25px; /* Add spacing between elements for smaller screens */
