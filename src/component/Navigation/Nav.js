@@ -1,8 +1,18 @@
-import "./Nav.css"
+import React from "react";
+import "./Nav.css";
+
 const NavigationCard = () => {
+  const scrollToTop = () => {
+    // Scroll to the top of the page with a smooth effect
+    window.scrollTo({
+      top: 0, // Scroll to the top of the page
+      behavior: "smooth", // Enable smooth scrolling
+    });
+  };
+
   return (
     <div id="navigation-card" className="navigation-card">
-      <a href="#" id="tab-1" className="tab">
+      <a href="#" id="tab-1" className="tab" onClick={scrollToTop}>
         <svg
           className="svgIcon"
           viewBox="0 0 104 100"
@@ -37,7 +47,7 @@ const NavigationCard = () => {
           <g clipPath="url(#clip0_41_27)">
             <mask
               id="mask0_41_27"
-              style={{ maskType: 'luminance' }}
+              style={{ maskType: "luminance" }}
               maskUnits="userSpaceOnUse"
               x="0"
               y="61"
