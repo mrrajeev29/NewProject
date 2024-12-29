@@ -126,6 +126,64 @@
   .btn:hover {
     background-color: #0056b3;
   }
+  .profile-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-username {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .profile-buttons .btn {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    padding: 15px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .profile-buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  .right-card {
+    padding: 20px;
+  }
+  
+  .right-buttons .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .right-buttons .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
   
   /* Responsive design */
   @media (max-width:1200px) {
