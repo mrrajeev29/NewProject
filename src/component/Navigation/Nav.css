@@ -1,0 +1,86 @@
+/* Navigation card container */
+#navigation-card {
+  position: fixed;
+  top: 10%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust position back by 50% of its own width and height */
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+
+/* Individual tabs */
+#tab-1, #tab-2, #tab-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  background-color: rgb(252, 252, 252);
+  padding: 10px;
+  margin: 0 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#tab-1:hover, #tab-2:hover, #tab-3:hover {
+  background-color: rgb(227, 223, 223);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #navigation-card {
+    top: 8%; /* Center vertically */
+
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between elements for smaller screens */
+  }
+
+  #tab-1, #tab-2, #tab-3 {
+    margin: 0 1rem; /* Reduce margin for smaller screens */
+    width: 40px; /* Adjust size of tabs */
+    height: 40px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 570px) {
+  #navigation-card {
+
+    top: 10%;
+    flex-direction: ; /* Stack the tabs vertically on very small screens */
+    gap: 15px; /* Increase spacing between elements */
+  }
+
+  #tab-1, #tab-2, #tab-3 {
+    width: 35px; /* Further adjust size of tabs */
+    height: 35px;
+    margin: 0;
+  }
+}
+@media (max-width: 370px) {
+  #navigation-card {
+
+    top: 10%;
+    flex-direction: ; /* Stack the tabs vertically on very small screens */
+    gap: 5px; /* Increase spacing between elements */
+  }
+
+  #tab-1, #tab-2, #tab-3 {
+    width: 35px; /* Further adjust size of tabs */
+    height: 35px;
+    margin: 0;
+  }
+}
