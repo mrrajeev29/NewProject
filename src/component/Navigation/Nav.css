@@ -42,7 +42,7 @@
 
 @media (max-width: 1200px) {
   #navigation-card {
-    top: 5%; /* Center vertically */
+    top: 3%; /* Center vertically */
 
     flex-wrap: wrap;
     gap: 25px; /* Add spacing between elements for smaller screens */
