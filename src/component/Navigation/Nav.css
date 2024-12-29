@@ -42,7 +42,7 @@
 /* Responsive Design */
 @media (max-width: 1200px) {
   #navigation-card {
-    top: 0%; /* Center vertically */
+    top: 3%; /* Center vertically */
 
     flex-wrap: wrap;
     gap: 25px; /* Add spacing between elements for smaller screens */
