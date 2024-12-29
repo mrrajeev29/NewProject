@@ -28,6 +28,30 @@ const Front = () => {
       content: "Alice discusses some great tips and tricks in this post. Don't miss it!",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
     },
+    {
+        name: "John Doe",
+        time: "10:30 AM",
+        date: "2024-12-29",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+        content: "This is a sample post content for John Doe. Enjoy reading!",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+      },
+      {
+        name: "Jane Smith",
+        time: "11:00 AM",
+        date: "2024-12-29",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+        content: "Jane shares her experience with the platform in this post. Check it out!",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+      },
+      {
+        name: "Alice Johnson",
+        time: "12:00 PM",
+        date: "2024-12-29",
+        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+        content: "Alice discusses some great tips and tricks in this post. Don't miss it!",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDcXvMnb2wGYm-Sx41RZ1ncxwIqzzX4PQxMQ&s",
+      },
   ];
 
   return (
